@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: whitesmoke;
+}
+
+h1{
+	text-align: center;
+	color: #579BB1;
+	margin-bottom: 10px;
+	font-size: 50px;
+	font-family: Didot;
+}
+
+section {
+	padding: 15px;
+	width: 90%;
+}
+
+p {
+	clear: right;
+	color: black;
+	font-size: 15px;
+}
+
+div {
+	background-color: #F8F4EA;
+	border: 2px solid black;
+	width: 100%;
+	font-family: Didot;
+}
+
+.food{
+	float: right;
+	margin: -2px -2px 5px;
+	padding: 5px;
+	width: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	border: 2px solid black;
+	font-family: Didot;
+}
+
+.food1 {
+	background-color: #FF9F9F;
+
+}
+
+.food2 {
+	background-color: #F2E7D5;
+
+}
+
+.food3 {
+	background-color: #FFE15D;
+
+}
+
+
+.description {
+	color: #579BB1;
+	font-size: 20px;
+	margin-bottom: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow: auto;
+
+}
+
+/** DESKTOP **/
+
+@media (min-width:992px) {
+	.col-lg-4{
+		float: left;
+		width: 33%;
+	}
+
+}
+
+/** TABLET **/
+
+@media (min-width:768px) and (max-width:991px) {
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+	.col-md-12 {
+		float: left;
+		width: 100%;
+	}
+}
+
+/** MOBILE **/
+
+@media (max-width:767px) {
+	.col-sm-12 {
+		float: left;
+		width: 100%;
+	}
+}
